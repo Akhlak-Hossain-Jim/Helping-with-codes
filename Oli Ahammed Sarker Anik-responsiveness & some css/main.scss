@@ -1,0 +1,89 @@
+header {
+    nav {
+        .row_section1 {
+            @media ( max-width:  768px) {
+                display: flex;
+                flex-direction: column;
+            }
+            .main_nav {
+                @media ( max-width:  768px) {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center !important;
+                    justify-content: center;
+                    margin: 10px;
+                    padding: 0;
+                    flex-wrap: wrap;
+                } 
+            }    
+        }
+    }
+}
+
+.section2 {
+    @media ( max-width:  768px) {
+        display: flex;
+        flex-direction: column;
+    }
+    .row.services_section2{
+        display: flex;
+    }
+}
+
+.section3 {
+    .team_section {
+        .members_section3 {
+            @media ( max-width:  768px) {
+                display: flex;
+            }
+        }
+    }
+}
+
+.section4 {
+    @media ( max-width:  768px) {
+        display: flex;
+        justify-content: center;
+    }
+    .circles_section4 {
+        @media ( max-width:  768px) {
+            display: flex;
+        }
+    }
+}
+.section5 {
+    .heading_section5 {
+        .tagline_section5 {
+            @media ( max-width:  768px) {
+                width: 80%;
+            }
+        }
+    }
+    .services_section5 {
+        @media ( max-width:  768px) {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 30px 0;
+        }
+        .service1_section5 {
+            img {
+                @media ( max-width:  768px) {
+                    height: 15rem;
+                    width: auto;
+                }
+                
+            }
+        }
+    }
+}
+
+textarea {
+    @media ( max-width:  768px) {
+        width: 80%;
+    }
+}
+
+dl, ol, ul {
+    margin-bottom: 0 !important;
+}
